@@ -22,14 +22,14 @@ const Counter : React.FC = () => {
             <button
                 onClick={decrement}
                 disabled={count==0} 
-                className="cursor-pointer bg-(--secondary-color) rounded-full p-2"
+                className="cursor-pointer bg-(--secondary-color) rounded-full p-1 md:p-2"
             >
                 <Minus/>
             </button>
             <div className="font-bold text-xl">{count}</div>
             <button
                 onClick={increment} 
-                className="cursor-pointer bg-(--primary-color) rounded-full p-2"
+                className="cursor-pointer bg-(--primary-color) rounded-full p-1 md:p-2"
             >
                 <Plus className="text-white"/>
             </button>

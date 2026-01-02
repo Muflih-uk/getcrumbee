@@ -13,8 +13,8 @@ const NavBar : React.FC = () => {
 
     return(
         <div className="w-full">
-            <div className="flex justify-between w-full p-5">
-                <div className="bg-white p-2 rounded-full">
+            <div className="flex justify-between w-full p-4 md:p-5">
+                <div className="bg-white rounded-full">
                     <ArrowLeft/>
                 </div>
                 <button onClick={onPressed}>
